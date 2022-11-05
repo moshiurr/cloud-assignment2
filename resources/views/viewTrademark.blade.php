@@ -25,7 +25,7 @@
                     {{$trademarks->links()}}
                 </div>
             @else
-                <p class="text-center">{{Auth::name()}} has no trademarks.</p>
+                <p class="text-center">{{Auth::user()->name}} has no trademarks.</p>
             @endif
         </div>
     </div>
